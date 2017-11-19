@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service
+            android:name="sk.bpazicky.testtwogit.DemoService"
+            android:label="@string/service_demo" >
+        </service>
     </application>
 
 </manifest>
